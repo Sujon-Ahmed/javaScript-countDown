@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+html{
+    font-size: 62.5%;
+}
+.coming_soon{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h2{
+    font-size: 6rem;
+    font-weight: bold;
+    padding: 3rem;
+    text-transform: capitalize;
+}
+h3{
+    font-size: 1.6rem;
+    text-transform: capitalize;
+}
+.countdown{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.waiting{
+    height: 50vh;
+}
+.day,.hour,.minute,.second{
+    font-size: 3rem;
+}
